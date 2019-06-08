@@ -1,4 +1,4 @@
-# hello-world
+# base vue-frame-demo
 
 ## Project setup
 ```
