@@ -1,6 +1,11 @@
 
-import Grid from '../components/Grid'
 import Hello from '../components/Hello'
+import Grid from '../page/grid/tabs'
+import Chart from '../page/chart/Chart'
+import Ui from '../components/Ui'
+import Monitor from '../page/monitor/Monitor'
+import Tree from '../components/Tree'
+
 
 
 export default [
@@ -13,5 +18,25 @@ export default [
             path: '/grid',
             name: 'grid',
             component: Grid
+        },
+        {
+            path: '/chart',
+            name: 'chart',
+            component: Chart
+        },
+        {
+            path: '/Ui',
+            name: 'ui',
+            component: Ui
+        },
+        {
+            path: '/monitor',
+            name: 'monitor',
+            component: Monitor
+        },
+        {
+            path: '/tree',
+            name: 'tree',
+            component: Tree
         }
     ]
