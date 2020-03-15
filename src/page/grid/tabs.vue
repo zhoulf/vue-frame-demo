@@ -16,6 +16,7 @@
   </a-tabs>
 </div>
 
+
 </template>
 <script>
 import Tabs from "ant-design-vue/lib/tabs"
